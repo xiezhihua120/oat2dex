@@ -1,4 +1,4 @@
-package com.morrowind.java.util;
+package xie.morrowind.java.tool.oat2dex;
 
 public class FileNamer {
     

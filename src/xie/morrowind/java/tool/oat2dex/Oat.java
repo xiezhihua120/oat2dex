@@ -26,7 +26,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package com.morrowind.java.util;
+package xie.morrowind.java.tool.oat2dex;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -379,6 +379,7 @@ public class Oat {
                 Oat oat = new Oat(r);
                 oat.dump();
             }
+            e.close();
         } catch (IOException ex) {
             System.out.println(ex);
         }

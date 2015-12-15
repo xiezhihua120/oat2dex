@@ -1,16 +1,12 @@
-package com.morrowind.java.tool.android;
+package xie.morrowind.java.tool.oat2dex;
 
-import com.morrowind.java.util.DataReader;
-import com.morrowind.java.util.Elf;
-import com.morrowind.java.util.FileNamer;
-import com.morrowind.java.util.FileNamer.FileDuplicateException;
-import com.morrowind.java.util.Oat.DexFile;
-import com.morrowind.java.util.Oat;
+import xie.morrowind.java.tool.oat2dex.FileNamer.FileDuplicateException;
+import xie.morrowind.java.tool.oat2dex.Oat.DexFile;
 
 import java.io.IOException;
 import java.util.UnknownFormatConversionException;
 
-public class oat2dex {
+public class Oat2Dex {
 
     /** Convert Android ART odex file to dex file.
      * @param args oat2dex.jar xxx.odex [yyy.dex]

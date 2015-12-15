@@ -26,7 +26,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package com.morrowind.java.util;
+package xie.morrowind.java.tool.oat2dex;
 
 import java.io.Closeable;
 import java.io.File;
